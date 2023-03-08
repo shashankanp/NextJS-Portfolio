@@ -11,7 +11,7 @@ export default function Navbar(props:any) {
         onClick={()=>{props.handleCLick(!props.dark)
         console.log(!props.dark)}}/>
         </li>
-        <li className="first-letter:capitalize bg-gradient-to-r from-cyan-500 to-teal-500 text-white rounded-md ml-8 px-4 py-2 "><a href=""> resume</a></li>
+        <li className="first-letter:capitalize bg-gradient-to-r from-cyan-500 to-teal-500 text-white rounded-md ml-8 px-4 py-2 "><a href="https://drive.google.com/file/d/1eeXbkaSTmGWRSGxfIPIEbBZ-x_mzEi72/view" target="_blank"> resume</a></li>
        </ul>
        </div>
     );
